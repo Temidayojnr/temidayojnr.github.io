@@ -5,103 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Temidayo Onifade | Software Engineer</title>
   <link rel="icon" href="favicon.ico" type="image/png" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Inter', sans-serif;
-      background: #0f172a;
-      color: #fff;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
+      background: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0;
     }
-    main {
-      max-width: 850px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 1rem;
-      padding: 2rem;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
     }
-    .intro { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
-    .tagline { font-size: 1.1rem; margin-bottom: 1.5rem; opacity: 0.9; }
-    h2 { font-size: 1.3rem; margin: 1.5rem 0 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 0.3rem; }
-    p, li { line-height: 1.6; opacity: 0.95; }
-    ul { margin-left: 1.2rem; }
-    .icons-social a { margin-right: 1rem; font-size: 1.4rem; color: #fff; transition: color 0.3s; }
-    .icons-social a:hover { color: #38bdf8; }
-    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
-    .project-card { background: rgba(255,255,255,0.08); border-radius: 0.8rem; padding: 1rem; }
-    .project-title { font-weight: 600; margin-bottom: 0.5rem; }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    header h1 { margin: 0.5rem 0; font-size: 1.8rem; }
+    header p { margin: 0.2rem 0; font-size: 1rem; color: #555; }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+    section { margin-bottom: 2rem; }
+    h2 { font-size: 1.3rem; margin-bottom: 0.8rem; border-bottom: 2px solid #ddd; padding-bottom: 0.3rem; }
+    ul { padding-left: 1.2rem; }
+    a { color: #0056b3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; font-size: 0.9rem; color: #555; padding: 2rem 1rem; }
   </style>
 </head>
 <body>
+  <header>
+    <img src="/me.JPG" alt="Temidayo Onifade">
+    <h1>Temidayo Onifade</h1>
+    <p>Software Engineer & Technical Product Manager</p>
+    <p>
+      <a href="mailto:temidayojunior@gmail.com">temidayojunior@gmail.com</a> |
+      <a href="https://temidayojnr.github.io" target="_blank">Portfolio</a> |
+      <a href="https://www.linkedin.com/in/temidayoonifade/" target="_blank">LinkedIn</a>
+    </p>
+  </header>
+
   <main>
-    <div class="intro">👋 Hello, I'm Temidayo Onifade</div>
-    <div class="tagline">Software Engineer | Backend Developer | Technical Product Manager</div>
-
-    <div class="icons-social">
-      <a href="https://github.com/temidayojnr" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/temidayojnr" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/temidayoonifade/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://medium.com/@TemidayoOnifade" target="_blank"><i class="fab fa-medium"></i></a>
-    </div>
-
     <section>
       <h2>About Me</h2>
       <p>
-        I am a Backend Engineer & Technical Product Manager with 7+ years of experience designing and deploying scalable applications across fintech, e-commerce, insurtech, and nonprofit sectors. Passionate about using technology to solve real-world problems, I’ve built solutions impacting 50,000+ users while empowering communities and improving operational efficiency.
+        I am a Backend Engineer and Technical Product Manager with over 7 years of experience developing scalable, secure applications across fintech, e-commerce, insurtech, and nonprofit sectors. My work combines technical engineering with social impact, creating solutions that have reached more than 50,000 users.
       </p>
     </section>
 
     <section>
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="project-card">
-          <div class="project-title">Swappify Digital Wallet</div>
-          <p>Led development of a peer-to-peer wallet exchange app as Technical Product Manager, from idea to launch.</p>
-        </div>
-        <div class="project-card">
-          <div class="project-title">Foot Sizer</div>
-          <p>Built a mobile app for Shoe A Child Foundation to measure children’s shoe sizes during outreaches, improving donation efficiency by 40%.</p>
-        </div>
-        <div class="project-card">
-          <div class="project-title">Order Manager SaaS</div>
-          <p>Developed a platform for SMEs to set up online stores, manage orders, and accept digital payments seamlessly.</p>
-        </div>
-        <div class="project-card">
-          <div class="project-title">Wakajugbe Ride-Hailing</div>
-          <p>Engineered backend infrastructure with driver-rider matching, real-time events, and secure payments.</p>
-        </div>
-        <div class="project-card">
-          <div class="project-title">Sports445</div>
-          <p>Built a sports blog with integrated football live scores and NBA scores for fans and enthusiasts.</p>
-        </div>
-        <div class="project-card">
-          <div class="project-title">RickXtopha E-Commerce</div>
-          <p>Developed a fashion e-commerce platform for a UK client, integrating Paystack for seamless payments.</p>
-        </div>
-      </div>
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><strong><a href="https://size.shoeachildfoundation.org" target="_blank">Foot Sizer</a>:</strong> Built a shoe sizing app for Shoe A Child Foundation to improve donation efficiency by 40%.</li>
+        <li><strong><a href="https://sports445.com" target="_blank">Sports445</a>:</strong> Sports blog with football live scores and NBA scores integrated.</li>
+        <li><strong>The Order Manager:</strong> SaaS platform for SMEs to set up online stores, manage orders, and accept payments.</li>
+        <li><strong>Wakajugbe:</strong> Ride-hailing backend infrastructure with driver-rider matching, real-time events, and payments.</li>
+        <li><strong>RickXtopha:</strong> Fashion e-commerce platform for a UK client with Paystack integration.</li>
+      </ul>
     </section>
 
     <section>
       <h2>Skills</h2>
       <ul>
-        <li>PHP (Laravel), Python (Flask), Node.js, JavaScript (Vue.js, React), HTML5, CSS</li>
+        <li>Languages & Frameworks: PHP (Laravel), Python (Flask), Node.js, Vue.js, React, HTML5, CSS</li>
         <li>Databases: MySQL, PostgreSQL, MongoDB</li>
-        <li>Specialties: API Architecture, Cloud Deployment, Payments, Agile Development</li>
+        <li>Specialties: API Architecture, Cloud Deployment, E-Commerce, Fintech, Agile Development</li>
       </ul>
     </section>
 
     <section>
       <h2>Community Impact</h2>
       <p>
-        As IT Lead at <strong>Shoe A Child Foundation</strong>, I built donor platforms, a shoe sizing app, and digital tools that improved donation efficiency for 1,000+ underprivileged children. I am driven to create technology that advances social good.
+        As IT Lead at <strong>Shoe A Child Foundation</strong>, I designed donor-matching tools and volunteer systems that improved efficiency for over 1,000 children served. I am passionate about creating technology that empowers communities.
       </p>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Temidayo Onifade</p>
+  </footer>
 </body>
 </html>
