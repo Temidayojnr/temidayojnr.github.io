@@ -1,38 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temidayo Onifade | Software Engineer & Product Manager</title>
+  <link rel="icon" href="favicon.ico" type="image/png" />
 
-	<title>Temidayo Onifade | Software Dev</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
 
-	<link rel="icon" href="favicon.ico" type="image/png" />
-
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/themes/indigo-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+  <!-- Styles -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    main {
+      max-width: 900px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .intro { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .tagline { font-size: 1.2rem; font-weight: 400; opacity: 0.85; margin-bottom: 1.5rem; }
+    section { margin: 2rem 0; }
+    h2 { font-size: 1.5rem; margin-bottom: 1rem; border-bottom: 2px solid rgba(255,255,255,0.2); padding-bottom: 0.5rem; }
+    p, li { line-height: 1.6; opacity: 0.95; }
+    ul { margin-left: 1.5rem; }
+    .icons-social a {
+      margin-right: 1rem;
+      font-size: 1.5rem;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+    .icons-social a:hover { color: #ffd700; }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 1rem;
+      padding: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover { transform: translateY(-5px); }
+    .project-title { font-weight: 600; margin-bottom: 0.5rem; }
+  </style>
 </head>
-<body background="img1.jpg">
-	<main>
-		<div class="intro">Hello, I'm Temidayo!</div>
-		<div class="tagline">Software Dev | PHP(Laravel) | Python | JS</div>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/temidayojnr"><i class="fab fa-github"></i></a>
-			<a target="_blank" href="https://twitter.com/temidayojnr"><i class="fab fa-twitter"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/temidayoonifade/"><i class="fab fa-linkedin"></i></a>
-			<a target="_blank" href="https://medium.com/@TemidayoOnifade"><i class="fab fa-medium"></i></a>
-	</main>
+<body>
+  <main>
+    <div class="intro">👋 Hello, I'm Temidayo Onifade</div>
+    <div class="tagline">Software Engineer | Technical Product Manager | Social Impact Technologist</div>
+
+    <div class="icons-social">
+      <a href="https://github.com/temidayojnr" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/temidayojnr" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/temidayoonifade/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://medium.com/@TemidayoOnifade" target="_blank"><i class="fab fa-medium"></i></a>
+    </div>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a Software Engineer and Technical Product Manager with 7+ years of experience building scalable systems across HR tech, fintech, e-commerce, insurtech, and nonprofit sectors. Currently, I work at <strong>SeamlessHR</strong>, Nigeria’s leading HR tech company, where I engineer backend systems that power enterprise payroll and financial solutions across Africa.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-title">SeamlessHR Loan API</div>
+          <p>Built the payroll-integrated loan API used by Letshego Bank to automate financial services across Africa.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-title">Shoe A Child Foundation – Foot Sizer</div>
+          <p>Developed a mobile app to measure children’s shoe sizes during outreach, improving donation efficiency by 40%.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-title">Swappify Digital Wallet</div>
+          <p>Led development of a peer-to-peer wallet exchange app, from concept to deployment, as Technical Product Manager.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-title">Order Manager SaaS</div>
+          <p>Built a storefront app for SMEs to create online shops, manage orders, and accept digital payments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages & Frameworks: PHP (Laravel), Python (Flask), Node.js, JavaScript (Vue.js, React), MySQL, MongoDB, PostgreSQL</li>
+        <li>Specialties: API Architecture, Cloud Deployment, System Integration, Agile Development, Technical Product Management</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Community Impact</h2>
+      <p>
+        As IT Lead at <strong>Shoe A Child Foundation</strong>, I spearheaded digital transformation—building volunteer management systems, donor platforms, and outreach apps serving 1,000+ children. I am passionate about technology that drives social good.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
